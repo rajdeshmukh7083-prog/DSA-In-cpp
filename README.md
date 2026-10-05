@@ -1,10 +1,10 @@
  Bus Route Management System
 
- Title
+ ##Title
 
 Bus Route Management System Using Singly Linked List in C++
 
- Problem Statement
+ ##Problem Statement
 
 To develop a Bus Route Management System that stores and manages bus route information such as bus number, source, and destination.
 
@@ -18,7 +18,7 @@ The system allows the user to:
 
 A Singly Linked List is used to store and manage bus records dynamically.
 
- Objectives
+ ##Objectives
 
 - To manage bus route information efficiently.
 - To add new bus routes dynamically.
@@ -34,15 +34,15 @@ Singly Linked List
 
 Each node contains:
 
-+-------------------------------+
-| Bus No | Source | Destination |
-+-------------------------------+
-|           Next Pointer        |
-+-------------------------------+
+     +-------------------------------+
+     | Bus No | Source | Destination |
+     +-------------------------------+
+     |           Next Pointer        |
+     +-------------------------------+
 
 The "next" pointer connects one bus record to the next bus record.
 
-⚙️ Operations
+##Operations
 
 Operation| Description
 Add Bus| Adds a new bus to the linked list
@@ -51,7 +51,7 @@ Search Bus| Searches for a bus using its bus number
 Delete Bus| Deletes a bus from the linked list
 Exit| Terminates the program
 
- Algorithm
+##Algorithm
 
 1. Start the program.
 2. Define a "Bus" structure containing bus number, source, destination, and next pointer.
@@ -65,7 +65,7 @@ Exit| Terminates the program
 10. Repeat the menu until the user selects Exit.
 11. Stop the program.
 
-📊 Flowchart
+##Flowchart
 
               ┌─────────────┐
               │    START    │
@@ -92,7 +92,7 @@ Exit| Terminates the program
                        ↓                 │ STOP │
                 Display Menu            └──────┘
 
- Sample Output
+ ##Sample Output
 
 ===== BUS ROUTE MANAGEMENT =====
 1. Add Bus
